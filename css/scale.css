@@ -386,15 +386,6 @@ sup a {
     font-size: 3em;
     }
 
-  }
-
-
-/*
-  MIN-WIDTH: 20em
---------------------------------------------- */
-
-@media screen and (min-width: 20em) {
-
   .dropcap:first-letter {
     -webkit-font-smoothing: antialiased;
     margin: .19em .15em .1em 0;
