@@ -155,6 +155,7 @@ body {
 
 .ie body {
   max-width: 32.90612em;
+  _width: 32.90612em;
   font-size: 100%;
   }
 
