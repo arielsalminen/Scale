@@ -1,7 +1,7 @@
 # Scale.css
-### Mobile first template focusing on readability
+### Mobile first boilerplate focusing on readability
 
-[Scale.css](http://viljamis.com/blog/2012/typography/) is a template that tries to make typography look good and readable on wide range of devices. It's also my personal study about the foundation of good typography and new ways of making adaptive sites. If you want to learn more [read my post at viljamis.com](http://viljamis.com/blog/2012/typography/).
+[Scale.css](http://viljamis.com/blog/2012/typography/) is a mobile first boilerplate that tries to make typography look good and readable on wide range of devices. It works from 200px and up and provides a set of typographic basic styles. All proportions are based on The Chromatic Scale. If you want to learn more [read my post at viljamis.com](http://viljamis.com/blog/2012/typography/).
 
 
 Usage Instructions and demo
