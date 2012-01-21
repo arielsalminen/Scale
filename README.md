@@ -9,7 +9,7 @@ Usage Instructions and demo
 
 For demo go to [http://viljamis.com/blog/2012/typography/](http://viljamis.com/blog/2012/typography/)
 
-Intructions, SASS template and more coming later...
+Instructions, SASS template and more coming later...
 
 
 Cheatsheet for math
