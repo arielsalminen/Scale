@@ -1,0 +1,476 @@
+/*
+
+   ######   ######     ###    ##       ########
+  ##    ## ##    ##   ## ##   ##       ##
+  ##       ##        ##   ##  ##       ##
+   ######  ##       ##     ## ##       ######
+        ## ##       ######### ##       ##
+  ##    ## ##    ## ##     ## ##       ##
+   ######   ######  ##     ## ######## ########
+
+  https://github.com/viljamis/Scale
+
+
+  PT Serif
+--------------------------------------------- */
+
+@font-face {
+  font-family: "PTSerifCustom";
+  src: url("../font/PTF55F_W.eot");
+  src: url("../font/PTF55F_W.eot?#iefix") format("embedded-opentype"),
+    url("../font/PTF55F_W.woff") format("woff"),
+    url("../font/PTF55F_W.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  }
+
+@font-face {
+  font-family: "PTSerifCustom";
+  src: url("../font/PTF56F_W.eot");
+  src: url("../font/PTF56F_W.eot?#iefix") format("embedded-opentype"),
+    url("../font/PTF56F_W.woff") format("woff"),
+    url("../font/PTF56F_W.ttf") format("truetype");
+  font-style: italic;
+  font-weight: normal;
+  }
+
+@font-face {
+  font-family: "PTSerifCustom";
+  src: url("../font/PTF75F_W.eot");
+  src: url("../font/PTF75F_W.eot?#iefix") format("embedded-opentype"),
+    url("../font/PTF75F_W.woff") format("woff"),
+    url("../font/PTF75F_W.ttf") format("truetype");
+  font-style: normal;
+  font-weight: bold;
+  }
+
+
+/*
+  RESET
+--------------------------------------------- */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size:100%;
+  font: inherit;
+  vertical-align: baseline;
+  }
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+  }
+
+strong, b {
+  font-weight: bold;
+  }
+
+i, em, blockquote {
+  font-style: italic;
+  }
+
+html, body {
+  min-height: 100%;
+  }
+
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  background: rgb(255,255,255);
+  overflow-y: scroll;
+  }
+
+img {
+  -ms-interpolation-mode: bicubic;
+  background: transparent;
+  border: 0;
+  }
+
+img, embed, object, video { 
+  max-width: 100%;
+  height: inherit;
+  _width: 100%;
+  }
+
+
+/*
+  SELECTIONS
+--------------------------------------------- */
+
+::-moz-selection {
+  background: rgb(100,100,100);
+  color: rgb(255,255,255);
+  text-shadow: none;
+  }
+
+::selection {
+  background: rgb(100,100,100);
+  color: rgb(255,255,255);
+  text-shadow: none;
+  }
+
+::selection:window-inactive {
+  background: rgb(220,220,220);
+  color: rgb(50,50,50);
+  }
+
+img::selection {
+  background: transparent;
+  }
+
+img::-moz-selection {
+  background: transparent;
+  }
+
+
+/*
+  BASE STYLES & TYPOGRAPHY
+--------------------------------------------- */
+
+html {
+  border-top: 6px solid rgb(0,0,0);
+  }
+
+body {
+  font: 75%/1.5em "PTSerifCustom", Georgia, serif;
+  max-width: 40.49984em;
+  color: rgb(0,0,0);
+  margin: 0 auto;
+  padding: 1em;
+  }
+
+.ie body {
+  max-width: 32.90612em;
+  font-size: 100%;
+  }
+
+h1, h2, h3, h4, h5, h6 {
+  -moz-font-feature-settings: "liga=1, kern=1";
+  -ms-font-feature-settings: "liga" 1, "kern" 1;
+  -webkit-font-feature-settings: "liga" 1, "kern" 1;
+  -o-font-feature-settings: "liga" 1, "kern" 1;
+  font-feature-settings: "liga" 1, "kern" 1;
+  text-rendering: optimizeLegibility;
+  margin-bottom: 1.42382em;
+  font-weight: normal;
+  }
+
+p, ul, ol, dl, blockquote, .content img {
+  margin-bottom: 1.5em;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+  }
+
+abbr {
+  text-transform: lowercase;
+  font-variant: small-caps;
+  letter-spacing: 0.1em;
+  cursor: help;
+  }
+
+sub, sup {
+  vertical-align: baseline;
+  position: relative;
+  font-size: 65%;
+  line-height: 0;
+  }
+
+sub {
+  bottom: -0.25em;
+  }
+
+sup {
+  top: -0.5em;
+  }
+
+blockquote {
+  margin: 1.5em 0 1.5em 1.80203em;
+  position: relative;
+  color: rgb(90,90,90);
+  }
+
+blockquote:before {
+  -webkit-font-smoothing: antialiased;
+  color: rgb(140,140,140);
+  font-size: 3.60406em;
+  position: absolute;
+  font-style: italic;
+  content: "\201C";
+  line-height: 1em;
+  left: -0.60180em;
+  top: 0;
+  }
+
+ul, ol {
+  margin-left: 1.5em;
+  }
+
+ul {
+  list-style-type: circle;
+  }
+
+ol {
+  list-style-type: lower-roman;
+  }
+
+h1 {
+  font: italic 2em/1.125em "Hoefler Text", Constantia, Palatino, "Palatino Linotype", "Book Antiqua", serif;
+  margin: 1em 0 0.46981em;
+  }
+
+.ie h1 {
+  font-size: 4em;
+  }
+
+h2 {
+  line-height: 1.77777em;
+  margin-bottom: 1em;
+  font-size: 1.2em;
+  }
+
+h3 {
+  margin: 1.7em 0 .85em;
+  line-height: 1.5em;
+  font-size: 1.3em;
+  }
+
+h4 {
+  line-height: 1.12382em;
+  margin: 0 0 1.3em;
+  font-size: 1.2em;
+  }
+
+h5 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 1.5em;
+  margin: 0 0 1.5em;
+  font-size: 1em;
+  }
+
+h6 {
+  font-weight: bold;
+  margin: 0 0 1.5em;
+  }
+
+pre,code {
+  font: .9375em/1.26562em monospace, monospace;
+  -webkit-font-smoothing: subpixel-antialiased;
+  }
+
+pre {
+  padding: 1.60180em 1em;
+  color: rgb(90,90,90);
+  margin-bottom: 3em;
+  line-height: 1em;
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  }
+
+img {
+  margin: .5em auto 1.5em auto;
+  display: block;
+  }
+
+.highlight {
+  border-color: rgb(0,0,0);
+  background: #fffccf;
+  color: rgb(0,0,0);
+  margin-top: 3em;
+  padding: 0 .2em;
+  }
+
+
+/*
+  LINKS
+--------------------------------------------- */
+
+a {
+  border-bottom: 1px solid rgb(200,200,200);
+  text-decoration: none;
+  color: rgb(80,80,80);
+  outline: none;
+  }
+
+a:hover {
+  border-bottom: 1px solid rgb(0,0,0);
+  background: rgba(0,0,0,.05);
+  color: rgb(0,0,0);
+  }
+
+a:active {
+  outline: none;
+  }
+
+sup a {
+  text-decoration: none;
+  }
+
+
+/*
+  MEDIA QUERIES
+--------------------------------------------- */
+
+@media print {
+
+  html {
+    border: 0;
+    }
+
+  a[href]:after {
+    content: " (" attr(href) ")";
+    }
+
+  a[href^="javascript:"]:after,
+  a[href^="#"]:after {
+    content: "";
+    }
+
+  }
+
+
+/*
+  MIN-WIDTH: 15.652em
+--------------------------------------------- */
+
+@media screen and (min-width: 15.652em) {
+
+  body {
+    font-size: 87.5%;
+    }
+
+  h2 {
+    font-size: 1.26562em;
+    }
+
+  h3 {
+    font-size: 1.5em;
+    }
+
+  h4 {
+    font-size: 1.26562em;
+    }
+
+  }
+
+
+/*
+  MIN-WIDTH: 19.9375em
+--------------------------------------------- */
+
+@media screen and (min-width: 19.9375em) {
+
+  body {
+    font-size: 100%;
+    padding: 1.5em;
+    }
+
+  h1 {
+    font-size: 3em;
+    }
+
+  }
+
+
+/*
+  MIN-WIDTH: 20em
+--------------------------------------------- */
+
+@media screen and (min-width: 20em) {
+
+  .dropcap:first-letter {
+    -webkit-font-smoothing: antialiased;
+    margin: .19em .15em .1em 0;
+    font-size: 3.32956em;
+    font-style: normal;
+    line-height: .7em;
+    float: left;
+    }
+
+  }
+
+
+/*
+  MIN-WIDTH: 29.9375em
+--------------------------------------------- */
+
+@media screen and (min-width: 29.9375em) {
+
+  body {
+    max-width: 34.3em;
+    padding: 3em;
+    }
+
+  ul, ol {
+    margin-left: 0;
+    }
+
+  sup.indent {
+    margin-left: -1.5em;
+    }
+
+  }
+
+
+/*
+  MIN-WIDTH: 38em
+--------------------------------------------- */
+
+@media screen and (min-width: 38em) {
+
+  body {
+    padding-bottom: 7.59372em;
+    }
+
+  h1 {
+    margin: 1.5em 0 0.65em;
+    font-size: 4em;
+    }
+
+  }
+
+
+/*
+  MIN-WIDTH: 60em
+--------------------------------------------- */
+
+@media screen and (min-width: 60em) {
+
+  .wide {
+    margin-left: -11em;
+    max-width: none;
+    width: 56em;
+    }
+
+  }
+
+
+/*
+  MIN-WIDTH: 85.375em
+--------------------------------------------- */
+
+@media screen and (min-width: 85.375em) {
+
+  body {
+    max-width: 34.43736em;
+    line-height: 1.75em;
+    font-size: 112.5%;
+    }
+
+  }
