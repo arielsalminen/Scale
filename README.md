@@ -3,7 +3,7 @@
 
 [Scale.css](http://viljamis.com/blog/2012/typography/) is a mobile first “boilerplate” that tries to make a good starting point for typography that looks balanced and easy-to-read on wide range of devices. It works from 200px and up and provides a set of Media Queries and Typographic Basic Styles. All proportions are based on The Chromatic Scale. If you want to learn more [read my post at viljamis.com](http://viljamis.com/blog/2012/typography/).
 
-More coming later…
+Scale.css in short: The first layout for feature phones is using 12px base font-size and there are max-width and horizontal centering for browsers that don’t support Media Queries. Then inside next Media Queries the whole layout starts to scale slightly bigger just by changing the body’s font-size. This works because EMs are always relative to the base font-size and Scale.css is using EMs everywhere instead of pixels.
 
 
 
