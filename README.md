@@ -57,6 +57,27 @@ Cheatsheet for math
     112.5%    =   18px
 
 
+Tested with
+======
+
+
+* Safari 5.1
+* Chrome 16, 18
+* Opera 11.6
+* Opera Mobile 10.1
+* Opera Mini 6.5
+* Firefox 2, 3, 3.6, 6, 8
+* Explorer 6, 7, 8 (works without Media Query support, support can be enabled with  [respond.js](https://github.com/scottjehl/Respond))
+* Explorer 9
+* Kindle 3
+* iPhone 3GS + 4 (iOS Safari 4.3, 5)
+* iPad 1, 2
+* Nokia 6303i browser (240x320 screen)
+* Huawei U8650 (Android)
+* (Nokia E61i)
+* (Samsung Omnia 7 (WP7.5))
+
+
 License
 ======
 
