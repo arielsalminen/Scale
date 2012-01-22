@@ -11,41 +11,6 @@
   Short URL: http://scalecss.com
 
 
-  PT Serif
---------------------------------------------- */
-
-@font-face {
-  font-family: "PTSerifCustom";
-  src: url("../font/PTF55F_W.eot");
-  src: url("../font/PTF55F_W.eot?#iefix") format("embedded-opentype"),
-    url("../font/PTF55F_W.woff") format("woff"),
-    url("../font/PTF55F_W.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-  }
-
-@font-face {
-  font-family: "PTSerifCustom";
-  src: url("../font/PTF56F_W.eot");
-  src: url("../font/PTF56F_W.eot?#iefix") format("embedded-opentype"),
-    url("../font/PTF56F_W.woff") format("woff"),
-    url("../font/PTF56F_W.ttf") format("truetype");
-  font-style: italic;
-  font-weight: normal;
-  }
-
-@font-face {
-  font-family: "PTSerifCustom";
-  src: url("../font/PTF75F_W.eot");
-  src: url("../font/PTF75F_W.eot?#iefix") format("embedded-opentype"),
-    url("../font/PTF75F_W.woff") format("woff"),
-    url("../font/PTF75F_W.ttf") format("truetype");
-  font-style: normal;
-  font-weight: bold;
-  }
-
-
-/*
   RESET
 --------------------------------------------- */
 
@@ -108,37 +73,7 @@ img, embed, object, video {
 
 
 /*
-  SELECTIONS
---------------------------------------------- */
-
-::-moz-selection {
-  background: rgb(100,100,100);
-  color: rgb(255,255,255);
-  text-shadow: none;
-  }
-
-::selection {
-  background: rgb(100,100,100);
-  color: rgb(255,255,255);
-  text-shadow: none;
-  }
-
-::selection:window-inactive {
-  background: rgb(220,220,220);
-  color: rgb(50,50,50);
-  }
-
-img::selection {
-  background: transparent;
-  }
-
-img::-moz-selection {
-  background: transparent;
-  }
-
-
-/*
-  BASE STYLES & TYPOGRAPHY
+  BASE TYPOGRAPHY
 --------------------------------------------- */
 
 html {
@@ -146,7 +81,7 @@ html {
   }
 
 body {
-  font: 75%/1.5em "PTSerifCustom", Georgia, serif;
+  font: 75%/1.5em Georgia, serif;
   max-width: 40.49984em;
   color: rgb(0,0,0);
   margin: 0 auto;
@@ -230,8 +165,9 @@ ol {
   }
 
 h1 {
-  font: italic 2em/1.125em "Hoefler Text", Baskerville, "PTSerifCustom", Times, "Times New Roman", serif;
-  margin: 1em 0 0.46981em;
+  margin: .97em 0 .5em;
+  line-height: 1.125em;
+  font-size: 2em;
   }
 
 .ie h1 {
@@ -275,7 +211,7 @@ pre,code {
   }
 
 pre {
-  padding: 1.60180em 1em;
+  padding: 1.5em 1em;
   color: rgb(90,90,90);
   margin-bottom: 3em;
   line-height: 1em;
@@ -325,7 +261,7 @@ sup a {
 
 
 /*
-  MEDIA QUERIES
+  PRINT STYLES
 --------------------------------------------- */
 
 @media print {
@@ -388,7 +324,7 @@ sup a {
 
   .dropcap:first-letter {
     -webkit-font-smoothing: antialiased;
-    margin: .19em .15em .1em 0;
+    margin: .2em .15em .1em 0;
     font-size: 3.32956em;
     font-style: normal;
     line-height: .7em;
@@ -411,7 +347,7 @@ sup a {
 
   body {
     max-width: 34.3em;
-    padding: 3em;
+    padding: 1.5em 3em;
     }
 
   ul, ol {
@@ -431,12 +367,17 @@ sup a {
 
 @media screen and (min-width: 38em) {
 
+  html {
+    /* background: url('../img/grid.gif') repeat; */
+    }
+
   body {
+    padding: 4.5em 3em;
     padding-bottom: 7.59372em;
     }
 
   h1 {
-    margin: 1.5em 0 0.65em;
+    margin: .97em 0 .8em;
     font-size: 4em;
     }
 
