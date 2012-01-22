@@ -454,10 +454,10 @@ sup a {
 
 
 /*
-  MIN-WIDTH: 85.375em
+  MIN-WIDTH: 99.9375em
 --------------------------------------------- */
 
-@media screen and (min-width: 85.375em) {
+@media screen and (min-width: 99.9375em) {
 
   body {
     max-width: 34.43736em;
