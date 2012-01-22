@@ -81,9 +81,8 @@ Tested with
 * iPhone 3GS + 4 (iOS Safari 4.3, 5)
 * iPad 1, 2
 * Nokia 6303i browser (240x320 screen)
-* Huawei U8650 (Android)
-* (Nokia E61i)
-* (Samsung Omnia 7 (WP7.5))
+* Huawei U8650 Android (Some Android platforms have a nasty bug with fonts that are unrecognized, [ream more here](http://code.google.com/p/android/issues/detail?id=11356)
+* Samsung Omnia 7 (WP7.5)
 
 
 
