@@ -230,7 +230,7 @@ ol {
   }
 
 h1 {
-  font: italic 2em/1.125em "Hoefler Text", Constantia, Palatino, "Palatino Linotype", "Book Antiqua", serif;
+  font: italic 2em/1.125em "Hoefler Text", Baskerville, Times, "Times New Roman", serif;
   margin: 1em 0 0.46981em;
   }
 
@@ -393,6 +393,11 @@ sup a {
     font-style: normal;
     line-height: .7em;
     float: left;
+    }
+
+  .ie9 .dropcap:first-letter {
+    margin: .2em .45em 0 0;
+    line-height: .9em;
     }
 
   }
