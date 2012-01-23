@@ -1,5 +1,4 @@
 /*
-
    ######   ######     ###    ##       ########
   ##    ## ##    ##   ## ##   ##       ##
   ##       ##        ##   ##  ##       ##
@@ -9,9 +8,6 @@
    ######   ######  ##     ## ######## ########
 
   Short URL: http://scalecss.com
-
-
-  RESET
 --------------------------------------------- */
 
 html, body, div, span, applet, object, iframe,
@@ -70,7 +66,6 @@ img, embed, object, video {
   height: inherit;
   _width: 100%;
   }
-
 
 /*
   BASE TYPOGRAPHY
@@ -132,8 +127,8 @@ sup {
 
 blockquote {
   margin: 1.5em 0 1.5em 1.80203em;
-  position: relative;
   color: rgb(90,90,90);
+  position: relative;
   }
 
 blockquote:before {
@@ -207,8 +202,8 @@ pre,code {
   }
 
 pre {
-  padding: 1.5em 1em;
   color: rgb(90,90,90);
+  padding: 1.5em 1em;
   margin-bottom: 3em;
   line-height: 1em;
   white-space: pre;
@@ -228,7 +223,6 @@ img {
   margin-top: 3em;
   padding: 0 .2em;
   }
-
 
 /*
   LINKS
@@ -255,7 +249,6 @@ sup a {
   text-decoration: none;
   }
 
-
 /*
   PRINT STYLES
 --------------------------------------------- */
@@ -276,7 +269,6 @@ sup a {
     }
 
   }
-
 
 /*
   MIN-WIDTH: 15.652em
@@ -302,7 +294,6 @@ sup a {
 
   }
 
-
 /*
   MIN-WIDTH: 19.9375em
 --------------------------------------------- */
@@ -319,9 +310,9 @@ sup a {
     }
 
   .dropcap:first-letter {
+    font: 3.32956em/0.7em Georgia, serif;
     -webkit-font-smoothing: antialiased;
     margin: .2em .15em .1em 0;
-    font: 3.32956em/0.7em Georgia, serif;
     float: left;
     }
 
@@ -332,7 +323,6 @@ sup a {
 
   }
 
-
 /*
   MIN-WIDTH: 29.9375em
 --------------------------------------------- */
@@ -340,8 +330,8 @@ sup a {
 @media screen and (min-width: 29.9375em) {
 
   body {
-    max-width: 34.3em;
     padding: 1.5em 3em;
+    max-width: 34.3em;
     }
 
   ul, ol {
@@ -353,7 +343,6 @@ sup a {
     }
 
   }
-
 
 /*
   MIN-WIDTH: 38em
@@ -375,7 +364,6 @@ sup a {
     }
 
   }
-
 
 /*
   MIN-WIDTH: 99.9375em
