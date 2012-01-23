@@ -76,10 +76,6 @@ img, embed, object, video {
   BASE TYPOGRAPHY
 --------------------------------------------- */
 
-html {
-  border-top: 6px solid rgb(0,0,0);
-  }
-
 body {
   font: 75%/1.5em Georgia, serif;
   max-width: 40.49984em;
@@ -325,9 +321,7 @@ sup a {
   .dropcap:first-letter {
     -webkit-font-smoothing: antialiased;
     margin: .2em .15em .1em 0;
-    font-size: 3.32956em;
-    font-style: normal;
-    line-height: .7em;
+    font: 3.32956em/0.7em Georgia, serif;
     float: left;
     }
 
