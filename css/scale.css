@@ -68,6 +68,35 @@ img, embed, object, video {
   }
 
 /*
+  SELECTIONS
+--------------------------------------------- */
+
+::-moz-selection {
+  background: rgb(100,100,100);
+  color: rgb(255,255,255);
+  text-shadow: none;
+  }
+
+::selection {
+  background: rgb(100,100,100);
+  color: rgb(255,255,255);
+  text-shadow: none;
+  }
+
+::selection:window-inactive {
+  background: rgb(220,220,220);
+  color: rgb(50,50,50);
+  }
+
+img::selection {
+  background: transparent;
+  }
+
+img::-moz-selection {
+  background: transparent;
+  }
+
+/*
   BASE TYPOGRAPHY
 --------------------------------------------- */
 
@@ -88,9 +117,6 @@ body {
 h1, h2, h3, h4, h5, h6 {
   -moz-font-feature-settings: "liga=1, kern=1";
   -ms-font-feature-settings: "liga" 1, "kern" 1;
-  -webkit-font-feature-settings: "liga" 1, "kern" 1;
-  -o-font-feature-settings: "liga" 1, "kern" 1;
-  font-feature-settings: "liga" 1, "kern" 1;
   text-rendering: optimizeLegibility;
   margin-bottom: 1.42382em;
   font-weight: normal;
