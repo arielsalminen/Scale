@@ -55,7 +55,7 @@ Cheatsheet for math
     Also: Font-sizes in percents (based on 16px/1em)
   
     75%       =   12px
-    81.125%   =   13px
+    81.25%    =   13px
     87.5%     =   14px
     93.75%    =   15px
     100%      =   16px
