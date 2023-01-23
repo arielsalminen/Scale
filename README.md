@@ -1,7 +1,7 @@
 # Scale.css
 ### Mobile first boilerplate focusing on readability
 
-[Scale.css](http://viljamis.com/blog/2012/typography/) is a mobile first “boilerplate” that tries to make a good starting point for typography that looks balanced and easy-to-read on wide range of devices. It works from 200px and up and provides a set of Media Queries and Typographic Basic Styles. All proportions are based on The Chromatic Scale. If you want to learn more [read my post at viljamis.com](http://viljamis.com/blog/2012/typography/).
+[Scale.css](https://arie.ls/2012/on-typography/) is a mobile first “boilerplate” that tries to make a good starting point for typography that looks balanced and easy-to-read on wide range of devices. It works from 200px and up and provides a set of Media Queries and Typographic Basic Styles. All proportions are based on The Chromatic Scale. If you want to learn more [read my post at arie.ls](https://arie.ls/2012/on-typography/).
 
 Scale.css in short: The first layout for feature phones is using 12px base font-size and there are max-width and horizontal centering for browsers that don’t support Media Queries. Then inside next Media Queries the whole layout starts to scale slightly bigger just by changing the body’s font-size. This works because EMs are always relative to the base font-size and Scale.css is using EMs everywhere instead of pixels.
 
@@ -11,7 +11,7 @@ Scale.css in short: The first layout for feature phones is using 12px base font-
 Usage Instructions and demo
 ======
 
-For demo go to [http://viljamis.com/blog/2012/typography/](http://viljamis.com/blog/2012/typography/)
+For demo go to [https://arie.ls/2012/on-typography/](https://arie.ls/2012/on-typography/)
 
 Instructions, SASS template and more coming later...
 
@@ -92,7 +92,7 @@ License
 
 Licensed under the MIT license.
 
-Copyright (c) 2012 Viljami Salminen, http://viljamis.com/
+Copyright (c) 2012 Ariel Salminen, https://arie.ls/
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
@@ -106,4 +106,4 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 Want to do a pull request?
 ======
 
-Great! New ideas are more than welcome, but please check the [Pull Request Guidelines](https://github.com/viljamis/Scale/wiki/Pull-Request-Guidelines) first before doing so.
+Great! New ideas are more than welcome, but please check the [Pull Request Guidelines](https://github.com/arielsalminen/Scale/wiki/Pull-Request-Guidelines) first before doing so.
